@@ -24,7 +24,7 @@
 }
 @property (nonatomic, strong) GPUImageView *filterView;
 @property (nonatomic, strong) NSMutableArray *filterArray;// 滤镜图片数组
- @property (nonatomic, strong) NSArray *titleArray; // 滤镜名数组
+@property (nonatomic, strong) NSArray *titleArray; // 滤镜名数组
 @property (nonatomic, weak)id playbackTimeObserver; // 播放进度观察者
 @property (nonatomic, strong) CLMBProgress *clProgress; // 显示处理进度
 @property (nonatomic, assign) NSInteger index; // 选择第几个滤镜参数，默认=0无滤镜

@@ -24,6 +24,7 @@
 
 #define kScreenWidth [UIScreen mainScreen].bounds.size.width
 #define kScreenHeight [UIScreen mainScreen].bounds.size.height
+#define kNavgationHeight 64.0
 
 #define KImageName(name) [UIImage imageNamed:(name)]
 #define FilterScrollHight 72.0f // 滤镜scrollView的高度

@@ -50,6 +50,7 @@
 		D3C43D701CCDE1A800DFB2BE /* MoviePlayer_控制点@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3C43D6F1CCDE1A800DFB2BE /* MoviePlayer_控制点@2x.png */; };
 		D3C43D721CCDE1BA00DFB2BE /* 进度条_背景@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3C43D711CCDE1BA00DFB2BE /* 进度条_背景@2x.png */; };
 		D3C43D741CCDE1E000DFB2BE /* Player_播放@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3C43D731CCDE1E000DFB2BE /* Player_播放@2x.png */; };
+		D3C43DA11CCE75CC00DFB2BE /* FilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3C43DA01CCE75CC00DFB2BE /* FilterViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -119,6 +120,8 @@
 		D3C43D6F1CCDE1A800DFB2BE /* MoviePlayer_控制点@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MoviePlayer_控制点@2x.png"; sourceTree = "<group>"; };
 		D3C43D711CCDE1BA00DFB2BE /* 进度条_背景@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "进度条_背景@2x.png"; sourceTree = "<group>"; };
 		D3C43D731CCDE1E000DFB2BE /* Player_播放@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player_播放@2x.png"; sourceTree = "<group>"; };
+		D3C43D9F1CCE75CC00DFB2BE /* FilterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilterViewController.h; sourceTree = "<group>"; };
+		D3C43DA01CCE75CC00DFB2BE /* FilterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilterViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,6 +189,8 @@
 				D3C43D711CCDE1BA00DFB2BE /* 进度条_背景@2x.png */,
 				D3C43D2E1CCDC96300DFB2BE /* CLFilterViewController.h */,
 				D3C43D2F1CCDC96300DFB2BE /* CLFilterViewController.m */,
+				D3C43D9F1CCE75CC00DFB2BE /* FilterViewController.h */,
+				D3C43DA01CCE75CC00DFB2BE /* FilterViewController.m */,
 				D3C43CDA1CCDC7A300DFB2BE /* Main.storyboard */,
 				D3C43CE01CCDC7A300DFB2BE /* Assets.xcassets */,
 				D3C43CE21CCDC7A300DFB2BE /* LaunchScreen.storyboard */,
@@ -430,6 +435,7 @@
 				D3C43CDF1CCDC7A300DFB2BE /* VideoProcessing.xcdatamodeld in Sources */,
 				D3C43CD91CCDC7A300DFB2BE /* ViewController.m in Sources */,
 				D3C43D551CCDC97C00DFB2BE /* CLCustomView.m in Sources */,
+				D3C43DA11CCE75CC00DFB2BE /* FilterViewController.m in Sources */,
 				D3C43D1A1CCDC94300DFB2BE /* TBFreeFilter.m in Sources */,
 				D3C43CD61CCDC7A300DFB2BE /* AppDelegate.m in Sources */,
 				D3C43CFA1CCDC92E00DFB2BE /* CLVideoAddFilter.m in Sources */,

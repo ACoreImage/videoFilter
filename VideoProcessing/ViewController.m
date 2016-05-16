@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import <MobileCoreServices/MobileCoreServices.h>
 #import "CLFilterViewController.h"
+#import "FilterViewController.h"
 
 @interface ViewController ()<UIImagePickerControllerDelegate, UINavigationControllerDelegate>
 
@@ -44,10 +45,10 @@
             [picker popToRootViewControllerAnimated:YES];
         }else{
             CLFilterViewController *filter = [[CLFilterViewController alloc]init];
+//            FilterViewController *filter = [[FilterViewController alloc] init];
             filter.videoUrl = [NSURL fileURLWithPath:videoPath];
-            UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:filter];
             [picker dismissViewControllerAnimated:YES completion:^{
-                [self presentViewController:nav animated:YES completion:nil];
+                [self.navigationController pushViewController:filter animated:YES];
             }];
         }
     }
